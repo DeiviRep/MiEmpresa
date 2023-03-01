@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  public image:string='../../assets/img/m1.jpg';
+  public Titulo:string='Mi Empresa';
+  constructor(){
+  }
+  ngOnInit(): void {
+  }
 }
