@@ -15,3 +15,11 @@ Tambien comentar el cambio que se realiso mas el nombre inicial y apellido inici
 Ej: <<!-- SE modifico el color de fondo DP -->>
 
 NOS VAMOS A DIVIDIR POR SECCIONES.
+
+#########################33
+#### PLUGUINS
+# vscode icons
+# eslint
+
+## GENERANDO COMPONENTES
+ng generate component header / ng g c slider
