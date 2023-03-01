@@ -1,0 +1,17 @@
+CREACION DE CERO ANGULAR5
+########################3
+# intalacion de angular cli en "cmd"
+npm install -g @angular/cli@latest
+# intalamos el proyecto en la ruta que queramos
+ng new name-proyect
+npm start o ng serve
+
+MARGEN DE TRABAJO
+-----------------
+Para agregar fichero poner nombre + inicial apellido
+Ej: footerDP.css
+Para modificaciones - tener siempre respaldado en git por si hay fallas
+Tambien comentar el cambio que se realiso mas el nombre inicial y apellido inicial
+Ej: <<!-- SE modifico el color de fondo DP -->>
+
+NOS VAMOS A DIVIDIR POR SECCIONES.
