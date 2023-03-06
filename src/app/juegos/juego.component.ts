@@ -5,7 +5,7 @@ import{ Component } from '@angular/core';
   template:`
     <h2>Component de {{nombre}}</h2>
     <h3 *ngIf="mostrar_retro != true">El mejor juego es: {{mejor_juego}}</h3>
-    <h3 [ngStyle]="{'color':color}"
+    <h3
         *ngIf="mostrar_retro">
         El mejor juego es: {{mejor_juego_retro}}</h3>
     <h2>Listado de Videojuegos</h2>

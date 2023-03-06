@@ -10,6 +10,7 @@ import { Seccion1Component } from './seccion1/seccion1.component';
 import { VideojuegosComponent } from './juegos/juego.component';
 import { Seccion6Component } from './seccion6/seccion6.component';
 import { Seccion7Component } from './seccion7/seccion7.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Seccion7Component } from './seccion7/seccion7.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
