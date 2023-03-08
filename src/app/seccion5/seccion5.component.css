@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Roboto:wght@100&family=Sassy+Frass&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
-
-html {
-    scroll-behavior: smooth;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Sassy Frass"; */
 }
 /* *********************/
 /* seccion S E R V I C I O S */
@@ -16,16 +13,15 @@ html {
 #servicios {
     padding: 100px 15px;
     text-align: center;
-    /* background-color: #06d3ee83; */
-    background-image: linear-gradient(180deg, #98ffff 0, #7fffff 12.5%, #69ffff 25%, #5affff 37.5%, #53f2f2 50%, #51d5dd 62.5%, #52bcca 75%, #53a7b8 87.5%, #5496a8 100%);
+    background-image: linear-gradient(180deg, #abfaf2 0, #8feae6 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%);
 }
 
 #servicios .titulo-seccion {
     text-align: center;
-    font-size: 40px;
-    color: #111135;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
+    color: #ffffff;
+    font-size: 2.8rem;
+    font-family: Public Sans !important;
+    margin-bottom: 0.5em;
 }
 
 #servicios .fila {
@@ -45,23 +41,33 @@ html {
 }
 
 #servicios .fila .servicio:hover {
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    box-shadow: 5px 5px 10px #06cdf0, -5px -5px 10px #10b8b8;
 }
 
 #servicios .fila .servicio .icono {
     display: inline-block;
     width: 70px;
     height: 70px;
-    border-radius: 50%;
-    background-color: #00ccf0;
+    border-radius: 70%;
+    background-image:linear-gradient(180deg, #abfaf2 0, #8feae6 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%);
     padding: 20px;
     margin-bottom: 25px;
-/*aumentar tamaño al icono*/
-    font-size: 1.7em;
+    margin: .8em;
+    font-size: 25px;
+    place-content: center;
 }
 
 #servicios .fila .servicio h4 {
     font-size: 22px;
+    margin-bottom: 25px;
+    font-family: Public Sans !important;
+}
+
+
+#servicios .fila .servicio hr {
+    width: 30%;
+    margin: auto;
+    color: #000;
     margin-bottom: 25px;
 }
 
@@ -70,4 +76,10 @@ html {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+}
+
+#servicios .fila .servicio p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
 }
