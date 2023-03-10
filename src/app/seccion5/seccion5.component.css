@@ -11,9 +11,9 @@
 /* *********************/
 
 #servicios {
-    padding: 100px 15px;
+    padding: 70px 15px;
     text-align: center;
-    background-image: linear-gradient(180deg, #abfaf2 0, #8feae6 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%);
+    background-image: linear-gradient(180deg, #64dace 0, #64dace 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%);
 }
 
 #servicios .titulo-seccion {

@@ -11,6 +11,8 @@ import { VideojuegosComponent } from './juegos/juego.component';
 import { Seccion6Component } from './seccion6/seccion6.component';
 import { Seccion7Component } from './seccion7/seccion7.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { Seccion3Component } from './seccion3/seccion3.component';
+import { Seccion2Component } from './seccion2/seccion2.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     VideojuegosComponent,
     Seccion6Component,
     Seccion7Component,
+    Seccion3Component,
+    Seccion2Component,
   ],
   imports: [
     BrowserModule,
