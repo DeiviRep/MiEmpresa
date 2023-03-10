@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.cajon {
+  background-color: rgb(215, 194, 166);
+  border-radius: 10px 0 10px 0;
+  border: solid 0px;
+}
+.title {
+  display: flex;
+  align-content: start;
+  flex-direction: row;
+  padding: 10px;
+}
+h3 {
+  padding: 6px;
+}
+p {
+  padding: 10px;
+}
+.margen {
+  padding: 20px;
+  border-radius: 6px 0 10px 0;
+  border: solid 0px;
+  background-color: black;
+}

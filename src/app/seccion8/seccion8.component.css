@@ -6,38 +6,47 @@
   /* font-family: "Sassy Frass"; */
 }
 .roow {
-  display:block;
+
 }
 .box {
   background-color: rgba(0, 0, 0, 0.298);
-  margin-bottom: 200px;
+  margin-bottom: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
+  height: 683px;
 }
 h3 {
-  font-size: 2.8rem;
+  position: absolute;
+  font-size: 3rem;
   font-family: Public Sans !important;
-  margin-bottom: 0.5em;
+  margin-left: 65px;
+  margin-top: 30px;
 }
 .proyectos {
   display: flex;
   justify-content: space-around;
+  margin: 30px;
 }
 .imagen {
-  width: 200px;
-  height: 150px;
+  width: 240px;
+  height: 204px;
   border-radius: 3px;
   margin-top: 8rem;
+}
+figcaption {
   margin-bottom: 8rem;
+  width: 240px;
+  background-color: #eeeeee1f;
+  color: #000000;
 }
 .fondo {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .img-fondo {
-  width: 550px;
-  height: 700px;
+  width: 660px;
+  height: 800px;
   position: absolute;
   z-index: -1;
 }
