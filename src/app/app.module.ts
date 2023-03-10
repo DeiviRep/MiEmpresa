@@ -15,6 +15,7 @@ import { Seccion11FooterComponent } from './seccion11-footer/seccion11-footer.co
 import { Seccion8Component } from './seccion8/seccion8.component';
 import { Seccion2Component } from './seccion2/seccion2.component';
 import { Seccion4Component } from './seccion4/seccion4.component';
+import { Seccion3Component } from './seccion3/seccion3.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,8 @@ import { Seccion4Component } from './seccion4/seccion4.component';
     Seccion8Component,
     Seccion2Component,
     Seccion4Component,
+    Seccion3Component,
+    Seccion2Component,
   ],
   imports: [
     BrowserModule,
