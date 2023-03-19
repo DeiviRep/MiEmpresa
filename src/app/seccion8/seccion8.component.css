@@ -1,19 +1,65 @@
+@import '~swiper/swiper-bundle';
+
 * {
-  color: rgba(28, 170, 178, 1);
+  color: #04cddc ;
   font-weight: 900;
   font-family: "Public Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   /* font-family: "Sassy Frass"; */
 }
-.roow {
-
+/* ESTILOS SWIPER */
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+  border-radius: 50%;
+  border: solid 0px;
+  background-color: #1e24225a;
+  width: 29px;
+  height: 29px;
 }
+.swiper-button-prev:hover {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #1e242290;
+}
+.swiper-button-next{
+  right: 10px;
+  left: auto;
+  border-radius: 50%;
+  border: solid 0px;
+  background-color: #1e24225a;
+  width: 29px;
+  height: 29px;
+}
+.swiper-button-next:hover{
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #1e242290;
+}
+
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  bottom: 80px;
+  color: #04cddc;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 4px;
+  padding: 0.1rem;
+  border-radius: 50%;
+  border: solid #04cddc 1px;
+}
+/* FIN ESTILOS SWIPER */
 .box {
-  background-color: rgba(0, 0, 0, 0.298);
   margin-bottom: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 683px;
+  height: 583px;
+  background-color: #1e242280;
 }
 h3 {
   position: absolute;
@@ -32,24 +78,77 @@ h3 {
   height: 204px;
   border-radius: 3px;
   margin-top: 8rem;
+  filter: grayscale(0.8);
+  opacity: 0.8;
+  transition: all ease 0.3s;
+}
+.imagen:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  opacity: 1;
 }
 figcaption {
   margin-bottom: 8rem;
   width: 240px;
-  background-color: #eeeeee1f;
-  color: #000000;
+  background-color: #1e242268;
+  color: white;
 }
 .fondo {
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 60px;
+  background-color: #1e2422;
 }
 .img-fondo {
   width: 660px;
   height: 800px;
   position: absolute;
   z-index: -1;
+  background-color: #1e2422;
 }
+/*INICIO MODO RESPONSIVE  */
+@media screen and (max-width: 1000px) and (min-width: 768px){
+  .img-fondo {
+    width: 460px;
+    height: 600px;
+  }
+  .imagen {
+    width: 200px;
+    height: 164px;
+  }
+  figcaption {
+    margin-bottom: 8rem;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 900px){
+  .img-fondo {
+    width: 460px;
+    height: 600px;
+  }
+  .imagen {
+    width: 170px;
+    height: 124px;
+  }
+  figcaption {
+    margin-bottom: 8rem;
+    width: 170px;
+  }
+}
+/* @media only screen and (max-width: 768px){
+  .img-fondo {
+    width: 560px;
+    height: 700px;
+  }
+  .imagen {
+    width: 200px;
+    height: 164px;
+  }
+  figcaption {
+    margin-bottom: 8rem;
+    width: 200px;
+  }
+} */
 /* .box {
     display: flex;
     justify-content: space-around;

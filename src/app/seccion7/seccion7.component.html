@@ -1,26 +1,35 @@
-<div class="box">
-  <section class="cajon">
-    <div class="title">
-      <img class="ico" src="../../assets/img/seccion8/chrome.png" alt="">
-      <h3>Google</h3>
-    </div>
-    <p>Mirando Hacia el futuro</p>
-    <div class="margen"></div>
-  </section>
-  <section class="cajon">
-    <div class="title">
-      <img class="ico" src="../../assets/img/seccion8/physics.png" alt="">
-      <h3>React</h3>
-    </div>
-    <p>Mirando Hacia el futuro</p>
-    <div class="margen"></div>
-  </section>
-  <section class="cajon">
-    <div class="title">
-      <img class="ico" src="../../assets/img/seccion8/IA.png" alt="">
-      <h3>IA</h3>
-    </div>
-    <p>Mirando Hacia el futuro</p>
-    <div class="margen"></div>
-  </section>
+<div class="root">
+  <div class="box">
+
+    <section class="cajon" style="--clr: #eb5ae5">
+      <div class="cajon-ico">
+        <img class="ico" [src]="ico1" alt="" />
+      </div>
+      <div class="cajon-texto">
+        <h3 class="title">{{ titulo1 }}</h3>
+        <p>{{ parrafo1 }}</p>
+      </div>
+    </section>
+
+    <section class="cajon" style="--clr: #eb5ae5">
+      <div class="cajon-ico">
+        <img class="ico" [src]="ico2" alt="" />
+      </div>
+      <div class="cajon-texto">
+        <h3 class="title">{{ titulo2 }}</h3>
+        <p>{{ parrafo1 }}</p>
+      </div>
+    </section>
+
+    <section class="cajon" style="--clr: #eb5ae5">
+      <div class="cajon-ico">
+        <img class="ico" [src]="ico3" alt="" />
+      </div>
+      <div class="cajon-texto">
+        <h3 class="title">{{ titulo3 }}</h3>
+        <p>{{ parrafo1 }}</p>
+      </div>
+    </section>
+
+  </div>
 </div>
