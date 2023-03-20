@@ -2,28 +2,44 @@
   margin: 0;
   padding: 0;
 }
-.cajon {
-  display: block;
+header.abajo {
+  background-color: #fff;
+  padding: 15px 20px;
+}
+header.abajo  .nav ul li a{
+  color: black !important;
+}
+.root .nav ul li a {
+  color: #fff;
 }
 .root {
   display: flex;
+  width: 100%;
   justify-content:space-around;
   align-items: center;
-  margin: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   color: white;
   font-family: var(--nav_typography-font-family);
   font-weight: 900;
+  padding: 20px 0 20px 0;
+  transition: 0.7s;
 }
-ul {
+.root .logo img {
+  width: 60px;
+  height: auto;
+  transition: 1.5s;
+}
+
+ul, a{
   display: flex;
   list-style: none;
+  text-decoration: none;
 }
 li {
   margin: 0 0 0 20px;
   color: aliceblue;
 }
-.nav:hover {
+a:hover {
   cursor: pointer;
 }
