@@ -16,6 +16,8 @@ import { Seccion8Component } from './seccion8/seccion8.component';
 import { Seccion2Component } from './seccion2/seccion2.component';
 import { Seccion4Component } from './seccion4/seccion4.component';
 import { Seccion3Component } from './seccion3/seccion3.component';
+import { Seccion10Component } from './seccion10/seccion10.component';
+import { Seccion9Component } from './seccion9/seccion9.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { Seccion3Component } from './seccion3/seccion3.component';
     Seccion4Component,
     Seccion3Component,
     Seccion2Component,
+    Seccion10Component,
+    Seccion9Component,
   ],
   imports: [
     BrowserModule,
