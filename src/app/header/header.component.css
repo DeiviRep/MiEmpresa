@@ -1,45 +1,111 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 header.abajo {
-  background-color: #fff;
-  padding: 15px 20px;
+  background-color: #eee;
+  padding: 2px 0 2px 0;
 }
-header.abajo  .nav ul li a{
-  color: black !important;
+header.abajo .nav ul li a {
+  color: #088993 !important;
 }
-.root .nav ul li a {
+header.abajo .nav ul li .contacto {
+  color: #fff !important;
+}
+.header .nav ul li a {
   color: #fff;
 }
-.root {
+.contacto {
+  background-color: #088993;
+  padding: 5px 10px 5px 10px;
+  border-radius: 14px;
+}
+a {
+  padding: 5px 10px 5px 10px;
+  border-radius: 14px;
+}
+.header {
   display: flex;
   width: 100%;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
-  z-index: 3;
+  z-index: 1000;
   color: white;
-  font-family: var(--nav_typography-font-family);
   font-weight: 900;
   padding: 20px 0 20px 0;
   transition: 0.7s;
 }
-.root .logo img {
+.header .logo img {
   width: 60px;
   height: auto;
   transition: 1.5s;
 }
-
-ul, a{
-  display: flex;
+.nav-list {
   list-style: none;
-  text-decoration: none;
+  display: flex;
 }
-li {
+.nav-list li a {
+  text-decoration: none;
+  font-family: Public Sans !important;
+  font-size: 14px;
+}
+.nav-list li a {
   margin: 0 0 0 20px;
   color: aliceblue;
 }
 a:hover {
   cursor: pointer;
+}
+/* .menu {
+  display: none;
+} */
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .abrir-menu,
+  .cerrar-menu {
+    display: block;
+  }
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0 !important;
+    background-color: #1c1c1c;
+    padding: 2rem;
+    /* box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); */
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .header {
+    display: grid;
+    grid-template-columns:1fr 60px;
+    padding: 20px 30px 20px 30px;
+  }
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav-list li a {
+    color: #ececec;
+  }
+  header.abajo {
+    /* background-color: #eee; */
+    padding: 2px 25px 2px 25px;
+  }
 }

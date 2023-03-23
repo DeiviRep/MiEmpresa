@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
     <title>ProyectPortafolio</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +24,30 @@
   <body>
     <!-- Esto es un componente - donde vamos a pasar todos los componentes -->
     <app-root></app-root>
+    <script type="text/javascript">
+      // const nav = document.querySelector("#nav");
+      // const abrir = document.querySelector("#abrir");
+      // const cerrar = document.querySelector("#cerrar");
+
+      // window.addEventListener("click", () => {
+      //   nav.classList.add("visible");
+      // });
+
+      // cerrar.addEventListener("click", () => {
+      //   nav.classList.remove("visible");
+      // });
+      const nav = document.querySelector("#nav");
+      const abrir = document.querySelector("#abrir");
+      const cerrar = document.querySelector("#cerrar");
+
+      abrir.addEventListener("click", () => {
+        nav.classList.add("visible");
+      });
+
+      cerrar.addEventListener("click", () => {
+        nav.classList.remove("visible");
+      });
+    </script>
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var header = document.querySelector("header");

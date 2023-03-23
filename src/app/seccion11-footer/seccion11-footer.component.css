@@ -123,3 +123,53 @@ button:hover .send {
 .ico-link {
   margin: 0;
 }
+
+@media screen and (max-width: 1000px){
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+  }
+  .itemP{
+    margin-right: auto;
+  }
+  .item{
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1000px){
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+  }
+  .itemP{
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 700px){
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    row-gap: 40px;
+  }
+  .itemP{
+    margin-left: auto;
+  }
+  .item{
+    margin-left: auto;
+  }
+  .itemu {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 400px){
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    row-gap: 40px;
+  }
+}
