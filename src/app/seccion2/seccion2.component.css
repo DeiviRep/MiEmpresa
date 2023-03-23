@@ -9,7 +9,7 @@
     text-align: center;
 
   }
-  
+
   #hero:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -20,13 +20,13 @@
     right: 0;
     z-index: 1;
   }
-  
+
   #hero .hero-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
   }
-  
+
   #hero h1 {
     font-size: 64px;
     color: #fff;
@@ -36,21 +36,20 @@
     font-family: "Public Sans", sans-serif;
     font-family: "Roboto", sans-serif;
   }
-  
 
- 
-  
+
+
+
   @media (min-width: 1024px) {
     #hero {
       background-attachment: fixed;
     }
   }
-  
+
   @media (max-width: 768px) {
     #hero h1 {
       font-size: 28px;
       line-height: 36px;
     }
-  
+
   }
-  

@@ -1,24 +1,96 @@
+.root {
+  background-color: #1e2422;
+  margin: 0;
+  padding: 3rem;
+}
 .box {
+  margin: 40px 0 40px 0;
   display: flex;
   justify-content: space-around;
-  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.cajon {
+  height: 100%;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  border-radius: 25px;
+  border: 0;
+  padding: 3rem;
+  transition: ease-in-out 0.5s;
+  overflow: hidden;
+}
+.cajon:hover {
+  cursor: pointer;
+  background-color: #1e2422;
+  color: aliceblue;
+  box-shadow: 0 0 0 4px #31e9bf, 0 0 200px 0 #088993;
+  /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 #31e9bf; */
+  /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 #7555f1; */
+  /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 var(--clr); */
+}
+.cajon-ico {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  border: 0;
+  width: auto;
+  transition: ease-in-out 0.5s;
+}
+.ico {
+  width: 200px;
+  height: 200px;
+}
+.cajon:hover .cajon-ico{
+  background-color: aliceblue;
+}
+.title {
   margin-bottom: 4rem;
+}
+h3 {
+  font-size: 2.5rem;
+  font-family: Public Sans !important;
+  font-weight: 900 !important;
+}
+p {
+  font-family: Public Sans !important;
+  font-size: 1.2rem;
+  font-weight:600;
+}
+/* .root {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  margin-top: 0;
+  background-color: #1e2422;
+}
+.box {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  row-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .cajon {
   background-color: rgb(215, 194, 166);
-  border-radius: 10px 0 10px 0;
+  border-radius: 20px;
   border: solid 0px;
+  margin: 2rem;
 }
 .title {
   display: flex;
-  align-content: start;
-  flex-direction: row;
-  padding: 10px;
+  justify-content: left;
 }
 h3 {
   padding: 6px;
+  font-size: 2.5rem;
 }
 p {
+  font-size: 2rem;
   padding: 10px;
 }
 .margen {
@@ -26,4 +98,4 @@ p {
   border-radius: 6px 0 10px 0;
   border: solid 0px;
   background-color: black;
-}
+} */

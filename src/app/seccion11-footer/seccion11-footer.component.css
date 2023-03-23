@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
 * {
-  background-color: #0c0c14 ;
+  background-color: #040404 ;
   color: white;
 }
 .raiz {
@@ -17,14 +19,44 @@
   list-style: none;
   margin-top: 35px;
 }
-.ico-social{
-  border-radius: 50%;
-  background-color: rgb(106, 104, 104);
+
+/* ESTILOS DE SVG */
+svg{
+  border: 0;
+  margin: 0 10px 0 0;
   text-align: center;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   padding: 4px;
+  border-radius: 6px;
+  background-color: #3c3c44;
+  fill: #ffffff;
+  transition-duration:1s;
 }
+svg:hover{
+  fill: #3c3c44;
+  transition-duration:1s;
+  background-color: #00d9e8;
+  cursor:pointer;
+}
+
+.ico-social{
+  /* background-color: rgb(135, 15, 15); */
+  border: 0;
+  margin: 0 10px 0 0;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #3c3c44;
+  transition-duration:1s;
+}
+.ico-social:hover {
+  cursor: pointer;
+  background-color: #0a7d84;
+}
+/* FIN ESTILE SVG */
 .itemP {
   margin-right: 12rem;
 }
@@ -87,4 +119,7 @@ button:hover {
 }
 button:hover .send {
   color: white;
+}
+.ico-link {
+  margin: 0;
 }
