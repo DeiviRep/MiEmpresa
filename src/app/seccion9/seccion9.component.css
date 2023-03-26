@@ -1,0 +1,106 @@
+@import '~swiper/swiper-bundle';
+
+* {
+  color: #04cddc ;
+  font-weight: 900;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Sassy Frass"; */
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  bottom: 80px;
+  color: #04cddc;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 4px;
+  padding: 0.1rem;
+  border-radius: 50%;
+  border: solid #04cddc 1px;
+}
+
+p{
+    position: absolute;
+    font-size: 20px;
+    font-family: Public Sans !important;
+    font-weight: bold; 
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #000000;
+}
+h3 {
+  position: absolute;
+  font-size: 3rem;
+  font-family: Public Sans !important;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+.proyectos {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+.imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin-top: 8rem;
+  opacity: 0.8;
+  transition: all ease 0.3s;
+  border-radius: 50%;
+  border: 1px solid #4db6ac;
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+.imagen:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+/* figcaption {
+  margin-bottom: 8rem;
+  width: 270px;
+  color: black;
+  text-align: center;
+} */
+figcaption {
+    margin-bottom: 8rem;
+    width: 270px;
+    color: #000000;
+    text-align: center;
+    
+  }
+
+
+.fondo {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 60px;
+  background-color: #1e2422;
+}
+
+/*responsive  */
+@media screen and (max-width: 1000px) and (min-width: 768px){
+
+  .imagen {
+    width: 200px;
+    height: 164px;
+  }
+  figcaption {
+    margin-bottom: 8rem;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 900px){
+  .imagen {
+    width: 170px;
+    height: 124px;
+  }
+  figcaption {
+    margin-bottom: 8rem;
+    width: 170px;
+  }
+}

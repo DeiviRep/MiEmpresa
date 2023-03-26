@@ -16,6 +16,8 @@ import { Seccion5Component } from './seccion5/seccion5.component';
 import { Seccion6Component } from './seccion6/seccion6.component';
 import { Seccion7Component } from './seccion7/seccion7.component';
 import { Seccion8Component } from './seccion8/seccion8.component';
+import { Seccion9Component } from './seccion9/seccion9.component';
+import { Seccion10Component } from './seccion10/seccion10.component';
 import { Seccion11FooterComponent } from './seccion11-footer/seccion11-footer.component';
 
 
@@ -31,6 +33,8 @@ import { Seccion11FooterComponent } from './seccion11-footer/seccion11-footer.co
     Seccion6Component,
     Seccion7Component,
     Seccion8Component,
+    Seccion9Component,
+    Seccion10Component,
     Seccion11FooterComponent,
   ],
   imports: [
