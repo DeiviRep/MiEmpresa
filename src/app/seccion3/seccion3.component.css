@@ -1,13 +1,56 @@
+/* animacion del lema */
+/* #lema{
+  color: #ffffff;
+  text-align: center;
+  animation: fluido 20s ease-in-out infinite;
+  background: linear-gradient(-45deg, #f4f805,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes fluido {
+  0% { background-position: 0 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0 50% }
+} */
+/* fin animacion lema */
+
 #lema {
-    padding: 40px 10px;
-    text-align: center;
-    /* background-image: linear-gradient(180deg, #64dace 0, #64dace 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%); */
-    background-color: #1e2422;
+  padding: 40px 10px;
+  text-align: center;
+  /* background-image: linear-gradient(180deg, #64dace 0, #64dace 25%, #6cd8d8 50%, #41c6cb 75%, #00b6c1 100%); */
+  background: #1e2422; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1e2422,
+    #088993,
+    #31e9bf,
+    #088993,
+    #1e2422
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e2422,
+    #088993,
+    #31e9bf,
+    #088993,
+    #1e2422
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  animation: fluido 20s ease-in-out infinite;
+  background-size: 300%;
+}
+@keyframes fluido {
+  0% { background-position: 0 50% }
+  50% { background-position: 100% 0 }
+  100% { background-position: 0 50% }
 }
 #lema .titulo-seccion {
-    text-align: center;
-    color: #ffffff;
-    font-size: 2.8rem;
-    font-family: "Public Sans", sans-serif;
-    font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: Public Sans !important;
+  /* font-family: "Public Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important; */
 }

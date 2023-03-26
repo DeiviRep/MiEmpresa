@@ -23,7 +23,7 @@
   cursor: pointer;
   background-color: #1e2422;
   color: aliceblue;
-  box-shadow: 0 0 0 4px #31e9bf, 0 0 200px 0 #088993;
+  box-shadow: 0 0 0 1.4px #fff, 0 0 200px 0 #088993;
   /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 #31e9bf; */
   /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 #7555f1; */
   /* box-shadow: 0 0 0 4px #2e2e2e, 0 0 200px 0 var(--clr); */
