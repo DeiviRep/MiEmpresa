@@ -1,1 +1,23 @@
-  
+<div class="roow">
+    <div class="box">
+      <h3>Directorio</h3>
+      <section class="proyectos">
+        <swiper
+          [slidesPerView]="3"
+          [spaceBetween]="10"
+          [navigation]="true"
+          [pagination]="{ clickable: true }"
+        >
+          <ng-template swiperSlide *ngFor="let item of img_directorio">
+            <figure>
+              <img class="imagen" [src]="item" alt="Directorio" />
+              <figcaption>
+                <p>freelancer</p>
+              </figcaption>
+            </figure>
+          </ng-template>
+        </swiper>
+      </section>
+    </div>
+  </div>
+   
